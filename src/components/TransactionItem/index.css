@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+}
+
+.transaction-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 12px;
+  width: 30%;
+}
+
+.delete-button {
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-container {
+  display: flex;
+  width: 10%;
+}
+
+.delete-img {
+  background: transparent;
+  height: 20px;
+  width: 20px;
+  border: none;
+  outline: none;
+  align-self: center;
+}
